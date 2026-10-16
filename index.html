@@ -1,0 +1,32 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Management Dashboard</h1>
+
+    <div class="container">
+        <h2>Student Registration</h2>
+
+        <input type="text" id="name" placeholder="Student Name">
+        <input type="text" id="roll" placeholder="Roll Number">
+        <button onclick="registerStudent()">Register Student</button>
+
+        <h2>Student Result</h2>
+
+        <input type="text" id="resultRoll" placeholder="Roll Number">
+        <input type="number" id="marks" placeholder="Enter Marks">
+        <button onclick="addResult()">Add Result</button>
+
+        <h2>Student Records</h2>
+        <div id="records"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
